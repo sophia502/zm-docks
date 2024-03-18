@@ -90,7 +90,7 @@ body {
   color: #000;
   transition: 0.5s;
   position: relative;
-  padding-top: 70px;
+  // padding-top: 70px;
 }
 
 .widthHidden {
