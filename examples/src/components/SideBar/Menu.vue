@@ -72,7 +72,7 @@ const backToGallery = () => {
   });
 };
 const backToDocs = () => {
-  window.location.href = "https://site.logic-flow.cn/docs/#/";
+  window.location.href = "https://examples.logic-flow.cn/docs/#/";
 };
 
 const FoldAll = () => {
