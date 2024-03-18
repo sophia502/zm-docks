@@ -28,13 +28,13 @@ provide("screenshots", screenshots);
 <template>
   <div class="container">
     <!-- <SideBarVue :type="type" :menuConfig="config.topic"></SideBarVue> -->
-    <MenuVue
+    <!-- <MenuVue
       :type="type"
       :menuConfig="config.topic"
       :toggleHidden="toggleHidden"
-    ></MenuVue>
+    ></MenuVue> -->
     <div :class="`main ${sideBarHidden ? 'widthHidden' : 'widthOpen'}`">
-      <Banner />
+      <!-- <Banner /> -->
       <router-view />
     </div>
     <!-- <div class="contact-us" v-if="route.name === 'Gallery'">
