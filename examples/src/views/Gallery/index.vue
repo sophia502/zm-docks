@@ -30,6 +30,7 @@
               <a
                 v-if="example.github"
                 :href="example.github"
+                target="_blank"
                 class="github-icon"
               >
                 <svg
